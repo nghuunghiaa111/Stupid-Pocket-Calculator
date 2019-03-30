@@ -56,9 +56,10 @@ class ViewController: UIViewController {
                 if firstNumber == 0 {
                     firstNumber = 1
                 }
-                else if firstNumber % 2 != 0 {
-                    result = firstNumber / Int(screen.text!)!
-                }
+//                else if firstNumber % 2 != 0 {
+//                    result = firstNumber / Int(screen.text!)!
+//                }
+                result = firstNumber / Int(screen.text!)!
                 screen.text = String(result)
                 firstNumber = Int(screen.text!)!
                 screen.text = String(firstNumber)
